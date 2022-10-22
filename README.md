@@ -1,1 +1,4 @@
 # Crowdfunding_ETL
+
+## Purpose of Project
+Extract, transform and load (ETL) describes a series of processes that takes a raw data scource and transforms the data to a clean, consistent form and stores that cleaned data for later tasks such as analysis. For this project, raw data from a crowdfunding platform stored in CSV files is transformed and cleaned using Python and the Pandas library. The resulting CSV files are better formatted to be used in a relational database; from this form the data is loaded into a PostgreSQL database. Finally an analysis is performed from querying the resultant database to get the names of crowdfunding projects that have yet to reach their goal and obtain an email list for both the contacts of the projects as well as their backers, showcasing the power of using the ETL process to have access to good clean data to perform analyses easily.
